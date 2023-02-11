@@ -1,0 +1,224 @@
+<!--we can create html structure or template in two way 1) html:5 and 2) ! enter -->
+<!-- for commenting any line just press ctr + / or ? -->
+<!-- if we want to create class with div tag just press .anyClassName eg. .container or .main and press enter --  eg.. <div class="container"></div>    -->
+<!-- if we want to create id with div tag just press #anyidName that you want suppose eg. #container or #main and press enter   -- eg.. <div id="main"></div>    -->
+<!-- if we want to create class with any other tag just write tag.anyClassName  and press enter.  suppose eg.  h1.abc and press enter -- eg.. <h1 class="abc"></h1> -->
+<!-- if we want to create id with any other tag just write tag.anyidName  and press enter.  suppose eg.  h1#main and press enter -- eg..   <h1 id="main"></h1> -->
+<!-- type any tag that you want and press enter here don't need to enter angle bracket <> manually it comes automatically with opening and closing tag. suppose eg.  span and press enter-- eg.. <span></span> -->
+<!-- ctreate div tag inside another div.  just write div>div and press enter --eg.. <div> <div></div> </div>  -->
+<!-- ctreate multiple div tag inside another div.  just write div>div*3 or any number that you want and press enter --eg.. <div> <div><div><div></div></div></div> </div>  -->
+<!-- create  any tag inside div tag  just write div>span  or any tag that you want and press enter. suppose eg-- <div><span></span></div>  -->
+<!-- create multiple a tag inside div tag just write div>a*3 and press enter --eg. <div> <a href=""></a> <a href=""></a> <a href=""></a> </div> -->
+<!-- ctrl + alt + uper arrow or lower arrow ----we can write same content in multiple line at time -->
+<!-- create 3a tag inside inner div tag just write div>div>a* -->
+<!-- ctl + \  we can split files side by side means we can write html code on left side and at the same time we can write css code on right side-->
+<!-- ctr + R open recent file or folder -->
+<!-- only create html file and write link tag and in link tag write or copy same html file name with extension .css and then tap ctl + click on href path then crete file of css automatically -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+    <!--  (-- known as hypen) and (<> known as angle bracket) -->
+
+<!-- practically shortcuts eg... -->
+
+<!-- h1 -->
+<h1></h1>
+
+<!-- span -->
+<span></span>
+
+<!-- section -->
+<section></section>
+
+<!-- a -->
+<a href=""></a>
+
+<!-- link -->
+<link rel="stylesheet" href="">
+   
+   <!-- .container -->
+<div class="container"></div>  
+   
+<!-- #main -->
+<div id="main"></div>
+
+<!-- h1.container -->
+<h1 class="container"></h1>
+
+<!-- h1#abc -->
+<h1 id="abc"></h1>
+   
+<!-- div>div -->
+   <div>
+    <div></div>
+   </div>
+ 
+<!-- div*4 -->
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<!-- div>div*3    -->
+   <div>
+    <div></div>
+    <div></div>
+    <div></div>
+   </div>
+
+<!-- div>div>div>div -->  
+<div>
+    <div>
+        <div>
+            <div></div>
+        </div>
+    </div>
+</div>
+
+<!-- div>span    -->
+<div>
+    <span></span>
+</div>
+
+<!-- div>a*3 -->
+<div>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
+</div>
+
+<!-- div>div>a*3 -->
+<div>
+    <div>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </div>
+</div>
+
+<!-- .container>.main -->
+<div class="container">
+    <div class="main"></div>
+</div>
+
+<!-- .container>.main>.abc -->
+<div class="container">
+    <div class="main">
+        <div class="abc"></div>
+    </div>
+</div>
+
+<!-- .container>.main>a*3 -->
+<div class="container">
+    <div class="main">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </div>
+</div>
+
+<!-- div>#a>#b>#c>.container and press enter -->
+<div>
+    <div id="a">
+        <div id="b">
+            <div id="c">
+                <div class="container"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- .container>#a>#b>#c  and press enter -->
+<div class="container">
+    <div id="a">
+        <div id="b">
+            <div id="c"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- #a>h1#b>span#c>section#d>.container -->
+
+<h1 id="b">
+    <span id="c">
+        <section id="d">
+            <div class="container"></div>
+        </section>
+    </span>
+</h1>
+</div>
+
+<!-- div>h1>span>section>embed -->
+<div>
+    <h1>
+        <span>
+            <section>
+                <embed src="" type="">
+            </section>
+        </span>
+    </h1>
+</div>
+
+<!-- .container>h1.container>span.container>section.container -->
+<div class="container">
+    <div id="a"></div>
+    <h1 class="container">
+        <span class="container">
+            <section class="container"></section>
+        </span>
+    </h1>
+</div>
+
+  
+</body>
+</html>
+
+<!-- 
+1.Trigger suggestion 
+CTRL + SPACE (for suggestion)
+
+2. Search bar
+CTRL + P  (for serching any file  or search bar)
+
+3. Move line up or down
+ALT + DOWN/UP  (we can move any line where we want up and down)
+
+5. Copy line up/down
+SHIFT + ALT + DOWN/UP   (copy a similar line to next line)
+
+CTRL + SHIFT + K   or CTRL + X (for delete or remove a whole line)
+CTRL + Backspace--(for delete whole word from back side)
+CTRL + Delete--(for delete whole word from front side)
+CTRL  + / (for commenting a line)
+CTRL + O    -----(open current file from folder )
+CTRL + B (for toggle the side bar left or right means for hide or show side bar )
+CTRL + SHIFT + L (select multiple same name and then we can change from one place )
+CTRL + C (for copy a line do not need to select whole line.just keep cursor on that line and copy it and paste where you want)
+CTRL + Z () undo ( by mistake if we delete anything using this we can bring reverse that thing again)
+CTRL + Y  redo
+CTRL + ,  (for open setting of vs code)
+CTRL + left arrow or right arrow (for move the cursor directly from one side to other side of word) 
+Bacspace key(for delete or erase letter from backside of word)
+Delet key(for delete or erase letter from front side of word)
+wind + Alt + R ---(for start screen recording)
+wind + G ---(for access that recorded screen recording)
+wind + D (for go to the dekstop  or minimized from any tab) 
+wind + shift + M    for again retun deskstop to current open tab .
+ctrl + shift + i    for access in inspect or developer tool of any website
+
+
+
+
+ 
+
+
+
+

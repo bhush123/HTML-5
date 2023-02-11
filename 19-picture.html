@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture element</title>
+    <style>
+      picture{
+        width: 100%;
+      }
+      source{
+        width: 100%;
+      }
+      img{
+        width: 100%;
+      }
+    </style>
+</head>
+<body>
+       <!-- picture tag is used to show different images on different screens.means on laptop screen will show different image ,on tablet screen will show different image and on mobile screen will show different image. -->
+    
+    <picture>
+
+        <source srcset="https://images.pexels.com/photos/13936081/pexels-photo-13936081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" media="(max-width:480px)">  <!-- we have set 480px width for mobile screen and if cross 480px then different image will show on tablet screen--> 
+        <source srcset="https://images.unsplash.com/photo-1666985229819-8bd7d5f13ecb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" media="(max-width:980px)">        <!--we have set 980px width for tablet screen if cross 980px the diffenet image will show on laptop screen -->
+        <img src="https://images.unsplash.com/reserve/Af0sF2OS5S5gatqrKzVP_Silhoutte.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGNvdXBsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="" width="1520px">   <!--for laptop-->
+
+    </picture>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

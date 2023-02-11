@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2230/2230954.png">
+</head>
+<body>
+    
+<form>
+  <!-- form is used to collect data from the user -->
+<!-- -lable tag is used to show small message in front of input tag.
+     -input tag is used to create a search bar. and inside input tag we must to write these attributes such as type, placeholdr, value, and some these are optional attributes as per our requirement we can use these attributes also id, class, required, max, min, minlength, maxlength, multiple etc for input tag, it's up to us.
+     -form tag is used to create a forms.
+     -placeholder attribute is used to show mesaage inside the search bar that created via input tag.
+     -boolean attributes -means they don't have value only attribute name such as - required ,multiple , checked.
+     -required is a boolean attribute if we provide  this attribute of any tag then we have to fill it compulsory that tag otherwise after submit it shows message like as please fill out this field.
+     -multiple is a boolean attribute if we provide this attribute of any tag then we able to select multiple options.
+     -name attribute is used to send the data to the server side.
+    -->
+    <!-- -textarea tag is used mostly to write address because only this tag is scalable in html. -->
+    
+     <div>
+        <label for="user">User Name :</label>
+        <input type="text" placeholder="Enter user name" name="User name" id="user" class="container" minlength="3" maxlength="40" required >
+    </div><br>
+
+
+    <div>
+        <label for="abc">Passward :</label>
+        <input type="password" name="password" id="abc" placeholder="Enter Password"  minlength="8" pattern="" required>
+   </div><br>
+
+
+   <div>
+    <label for="user">Email id :</label>
+    <input type="email" placeholder="Enter your email id" name="email" id="user" required>
+   </div><br>
+
+
+   <div>
+     <span>Gender :</span>
+     <input type="radio" name="gender" value="Male"   id="" class="" checked><label for="">Male</label>
+     <input type="radio" name="gender" value="Female"  id="" class="" > <label for="">Female</label>
+     <input type="radio" name="gender" value="Transgender" id="" class="" disabled><label for="">Transgender</label>
+     <input type="radio" name="gender" value="Others"  id="" class="" ><label for="">Others</label>
+   </div><br>
+
+
+   <div>
+    <span>Pets :</span>
+    <input type="checkbox" name="pets" value="Cats" class="" id=""><label for="">Cats :</label>
+    <input type="checkbox" name="pets" value="Dog" class="" id=""><label for="">Dog :</label>
+    <input type="checkbox" name="pets" value="Rabbit" class="" id=""><label for="">Fish :</label>
+    <input type="checkbox" name="pets" value="Horse" class="" id=""><label for="">Horse</label>
+  </div><br>
+
+
+  <div>
+    <label for="">Upload Resume :</label>
+    <input type="file" name="" id="" class="" accept=".jpj, .pdf , .gif">
+    <label for="">Upload Image :</label>
+    <input type="file" name="" id="" class="" accept=".jpj, .pdf , .gif, image/*">
+    <label for="">Upload Audio :</label>
+    <input type="file" name="" id="" class="" accept=" audio/*">
+  </div><br>
+
+
+  <div>
+    <label for="">Color :</label>
+    <input type="color" name="" value="" id="" class="" required>
+  </div><br>
+
+  
+  <div>
+    <label for="">Date :</label>
+    <input type="Date" name=""  id="" class="" min="" max="">
+  </div><br>
+
+
+  <div>
+    <label for="">Time :</label>
+    <input type="time" name="" id="" class="" min="" max="">
+  </div><br>
+
+
+  <div>
+    <label for="">Date and time :</label>
+    <input type="datetime-local" name="" id="" class="" min="" max="">
+  </div><br>
+
+
+  <div>
+    <label for="">Month :</label>
+    <input type="month" name="" id="" class="" min="" max="">
+  </div><br>
+
+
+  <div>
+    <label for="">Week :</label>
+    <input type="week" name="" id="" class="" min="" max="">
+  </div><br>
+
+
+  <div>
+    <label for="">Range :</label>
+    <input type="range" name="" id="" class="" min="" max="" value="10">
+  </div><br>
+
+
+  <div>
+    <label for="">quntity :</label>
+    <input type="number"  name="" id="" class="" min="0" max="25" step="5">
+  </div><br>
+
+
+  <div>
+    <label for="">Search :</label>
+    <input type="search" name="" id="" class="" placeholder="search anything...">
+  </div><br>
+
+
+  <div>
+    <label for="">Website :</label>
+    <input type="url" name="" id="" placeholder="Enter website">
+  </div><br>
+
+
+  <div>
+    <label for="">city :</label>
+    <select name="" id="">
+      <option value="">Select</option>
+      <option value="">Amravati</option>
+      <option value="">Akola</option>
+      <option value="">Pune</option>
+      <option value="">Mumbai</option>
+    </select>
+  </div><br>
+
+
+  <div>
+    <label for="">Address :</label><hr>
+    <textarea name="" id="" cols="50" rows="10"></textarea>
+  </div><br>
+
+  <input type="hidden" name="" id="">
+
+
+  <div>
+  <input type="submit" name="" id="" value="Login"><br><br>
+  <input type="reset" name="" id="" value="Clear"><br><br>
+  <input type="button" name="" id="" value="Calculate"><br><br>
+
+  <button type="submit" >submit</button>
+  </div>
+
+
+</form>
+
+</body>
+</html>
